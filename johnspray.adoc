@@ -1,0 +1,28 @@
+:doctype: article
+:encoding: utf-8
+:lang: en
+:imagesdir: images
+
+
+= John Spray
+
+image::HubbleDeepField_2000x960.png[,,title="In a universe unimaginably large"]
+
+
+== Things I like
+
+* software architecture:
+http://www.abstractionlayeredarchitecture.com[www.abstractionlayeredarchitecture.com]
+* flying RC models
+* collecting slide rules and calculators
+* the search for Planet Nine
+* the Fermi paradox
+* etc
+
+
+image::apollo08_earthrise.jpg[,,title="a lone planet has kept us alive for one third of all time"]
+
+ 
+
+_Contact_: johnspray274<at>gmail<dot>com
+
