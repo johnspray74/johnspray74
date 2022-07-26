@@ -6,21 +6,40 @@
 
 = John Spray
 
+
+
 image::HubbleDeepField_2000x960.png[,,title="In a universe unimaginably large"]
 
+:partnums:
+:sectnums:
 
-== Things I like
+= The things I like
 
-* software architecture:
-http://www.abstractionlayeredarchitecture.com[www.abstractionlayeredarchitecture.com]
-* flying RC models
-* collecting slide rules and calculators
-* the search for Planet Nine
-* the Fermi paradox
-* etc
+== Software architecture
+
+How to properly organise code. If you have written software, you would have heard the expression "loose coupling and high cohesion". Well it turns out we should be doing way better than that. We should have zero coupling and even higher cohesion. For example, all knowledge of a user story should be in one in one place. I have written an on-line book on the topic: www.abstractionlayeredarchitecture.com[www.abstractionlayeredarchitecture.com]
+
+== Flying RC models 
+
+(planning to post pictures and descriptions of them here)
+
+== Collecting slide rules and calculators 
+
+(planning to post pictures and descriptions of them here)
+
+== EVs
+
+(planning to post experiences with my model Y here)
+
+== The Fermi paradox
+
+Here is a link to my short story about the fermi paradox.
+
+www.wattpad.com/story/268257863-long-journey-to-earth[https://www.wattpad.com/story/268257863-long-journey-to-earth]
 
 
-image::apollo08_earthrise.jpg[,,title="a lone planet has kept us alive for one third of all time"]
+
+image::apollo08_earthrise.jpg[,,title="This planet, alone in a vast space, is what has kept us alive for one third of all time. Let's care for it." ]
 
  
 
