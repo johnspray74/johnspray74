@@ -17,7 +17,18 @@ image::HubbleDeepField_2000x960.png[,,title="In a universe unimaginably large"]
 
 == Software architecture
 
-How to properly organise code. If you have written software, you would have heard the expression "loose coupling and high cohesion". Well it turns out we should be doing way better than that. We should have zero coupling and even higher cohesion. For example, all knowledge of a user story should be in one in one place. I have written an on-line book on the topic: www.abstractionlayeredarchitecture.com[www.abstractionlayeredarchitecture.com]
+I have written an on-line book on how to properly organise code here: www.abstractionlayeredarchitecture.com[https://www.abstractionlayeredarchitecture.com]
+
+If you have ever written software, you would have heard the expression "loose coupling and high cohesion". It was first coined by the great thinker, Larry Constantine, as the guiding principle for code organisation. 
+
+Well it turns out that to this day, people are confused about what coupling means in this expression. Minimizing coupling is generally thought to be about minimizing dependencies. It is not. Loose coupling is about minimizing knowledge of the internals of another module. Larry Constantine wrote "The key question is: How much of one module must be known in order to understand another module?".
+
+It is quite possible to have zero coupling. It just requires good abstractions. For example, when you use a squareroot function, you need know nothing about the internals of how squareroot is calculated. You only need to know about the abstraction, squareroot. When an application is written to run on Windows, its code need know nothing about how windows works. That's because of the quality of these abstractions. There are still dependencies. In fact we want more dependencies because then we are reusing our abstractions. Charles Kreuger pointed out that _abstraction_ and _reuse_ go hand in hand, so the more we reuse our abstractions, the better abstractions they are.
+
+No wonder we are confused. Loose coupling doesn't mean minimizing dependencies. It means understanding that there are good and bad dependencies. Good dependecies are dependencies on good abstractions. All other dependencies are bad. It turns out you can implement systems using only good dependencies. 
+
+This simple realization leads to a code structure called abstraction layered architecture. The exploration of this architecture is the subject of the on-line book.
+
 
 == Flying RC models 
 
